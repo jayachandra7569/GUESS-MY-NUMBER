@@ -71,3 +71,127 @@
             font-size:30px;
             margin-bottom: 35px;
         }
+        /* media quriey */
+        @media screen and (min-width:0px) and (max-width:600px) {
+
+            .div1{
+              display: flex;
+              flex-direction: column;
+            }
+            .again{
+                font-size: 20px;
+            }
+            .bt{
+                font-size: 15px;
+            }
+            .guess1{
+                font-size: 20px;
+            }
+            .number {
+                position: relative;
+                left: 38%;
+                font-size: 30px;
+                background-color: red;
+                width: 40px;
+                justify-content: center;
+                top: 35px;
+                padding: 10px;
+            }
+            .num{
+                display: flex;
+                flex-direction: column;
+            }
+            .guess {
+               position: relative;
+               top: -20px;
+               left:  130px;
+            }
+            #checkbtn {
+                position: relative;
+                right: 20px;
+                top:30px
+        
+            }
+            .message {
+                font-size: 15px;
+                position: relative;
+                top: 30px;
+                left: 40px;
+            }
+            .label-score {
+                font-size: 15px;
+                position: relative;
+                top: 20px;
+                left: 40px;
+            }
+            
+            .label-Highscore {
+                margin-top: 30px;
+                margin-left: 80px;
+                font-size: 15px;
+            }
+        
+        }
+        @media screen and (min-width:600px) and (max-width:992px) {
+        
+            .div1{
+              display: flex;
+              flex-direction: row;
+            }
+            .again{
+                font-size: 20px;
+            }
+            .bt{
+                font-size: 15px;
+            }
+            .guess1{
+                font-size: 20px;
+            }
+            .number {
+                position: relative;
+                left: 38%;
+                font-size: 30px;
+                background-color: red;
+                width: 40px;
+                justify-content: center;
+                top: 35px;
+                padding: 10px;
+            }
+            .num{
+                display: flex;
+                flex-direction: row;
+            }
+            .guess {
+               position: relative;
+               top: -20px;
+               margin: -20px 0px 0px 120px;
+            }
+            #checkbtn {
+                position: relative;
+                right: 150px;
+                top: 30px;
+        
+            }
+            .message {
+                margin-top: -40px;
+                margin-left: 20px;
+                font-size: 15px;
+                position: relative;
+                top: 40px;
+                left: 10px;
+            }
+            .label-score {
+                font-size: 15px;
+                margin-left: 20px;
+                position: relative;
+                top: 20px;
+                left: 10px;
+            }
+            
+            .label-Highscore {
+                margin-top: 30px;
+                margin-left: 30px;
+                font-size: 15px;
+            }
+        
+        }
